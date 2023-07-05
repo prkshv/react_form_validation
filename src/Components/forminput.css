@@ -1,5 +1,21 @@
 .formInput {
+  display: flex;
+  width: 550px;
+  flex-direction: column;
+  margin: 20px;
 }
 
 input {
+  height: 50px;
+  width: 450px;
+  border-radius: 5px;
+}
+
+span {
+  color: red;
+  display: none;
+}
+
+input:invalid ~ span {
+  display: block;
 }
