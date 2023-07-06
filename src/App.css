@@ -2,6 +2,18 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  background-color: skyblue;
+}
+
+form {
+  background-color: white;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+}
+
+h1 {
+  text-align: center;
 }
 
 button {

@@ -3,6 +3,7 @@
   width: 550px;
   flex-direction: column;
   margin: 20px;
+  margin-left: 10%;
 }
 
 input {
